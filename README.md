@@ -5,7 +5,7 @@ It was built in 3.41 python and it can be run either through the test file or yo
 
 Open bjtest.py in python.
 
-Run Module(press ft)
+Run Module(press f5)
 
 OR
 

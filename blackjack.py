@@ -55,11 +55,19 @@ class player:
             self.cards.append('Q')
         elif card == 13:
             self.cards.append('K')
+        elif card == 1:
+            self.cards.append('A')
         else:
             self.cards.append(card)
         if card>10:
             card = 10
-        self.score = self.score + card
+        if card ==1:
+            if self.score + 11 <21:
+                self.score = self.score +11
+            else:
+                self.score = self.score +1
+        else:
+            self.score = self.score + card
 
         #Here Is where the simple Strategy comes in.
         if self.score >16:

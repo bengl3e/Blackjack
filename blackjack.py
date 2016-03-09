@@ -1,4 +1,5 @@
 from random import shuffle
+#Written in 3.4.1
 class deck:
     #This class creates a deck from numbers. 1-A 2-10 and 11-13 being J Q K Respectively.
     #This class has one Field and 3 Methods
